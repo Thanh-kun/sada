@@ -61,7 +61,7 @@ function LoadDrawing()
    /* Load a drawing from the airtraffic.g file. 
       The LoadCB callback will be invoked when the drawing has been loaded.
    */
-   var drawing_file = ( MobileVersion ? "airtraffic2.g" : "airtraffic.g" );
+   var drawing_file = ( "mapserver.g" );
    
    GLG.LoadWidgetFromURL( drawing_file, null, LoadCB, null );
 }
